@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "topicName": "stockallocation",
+      "subscriptionName": "CatchAll",
+      "accessRights": "manage",
+      "direction": "in",
+      "name": "message"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\MessagingFunctionp.dll",
+  "entryPoint": "MessagingFunctionp.FirstTry.Run"
+}

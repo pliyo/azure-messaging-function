@@ -1,0 +1,9 @@
+{
+  "name": "RunAsbMessageReaderWithAzureFunction",
+  "topicName": "topicName",
+  "subscriptionName": "SubscriptionName",
+  "connection": "AsbConn",
+  "accessRights": "Manage",
+  "type": "serviceBusTrigger",
+  "direction": "in"
+}

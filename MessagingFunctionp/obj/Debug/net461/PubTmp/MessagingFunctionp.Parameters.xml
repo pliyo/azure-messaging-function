@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AzureServiceBusReaderFunc" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Development\\Azure\\MessagingFunctionp\\MessagingFunctionp\\obj\\Debug\\net461\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

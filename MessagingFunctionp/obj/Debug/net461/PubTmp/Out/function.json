@@ -1,0 +1,9 @@
+{
+  "name": "RunAsbMessageReaderWithAzureFunction",
+  "topicName": "stockallocation",
+  "subscriptionName": "CatchAll",
+  "connection": "Endpoint=sb://asos268-test-eun-inv-warehousestock-publisher-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AI+SzrzbAD9bi8upYB7ZCkv4SuSaHYHvPfU0cUwZcLw=",
+  "accessRights": "Manage",
+  "type": "serviceBusTrigger",
+  "direction": "in"
+}
